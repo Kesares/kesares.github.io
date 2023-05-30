@@ -1,0 +1,12 @@
+:root {
+    --background-color1: #1A1A1A;
+    --background-color2: #2E2E2E;
+}
+
+html, body {
+    background-color: var(--background-color1);
+}
+
+header {
+    background-color: var(--background-color2);
+}
