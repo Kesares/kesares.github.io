@@ -1,6 +1,9 @@
 :root {
     --background-color1: #1A1A1A;
     --background-color2: #2E2E2E;
+
+    --accent-color: #56bbc9;
+    --hover-color: #31d3eb;
 }
 
 html, body {
@@ -14,9 +17,9 @@ header {
     font-size: 1.2rem;
     display: flex;
     background-color: var(--background-color2);
+    border-bottom: 0.1rem solid var(--accent-color);
     justify-content: space-between;
     align-items: center;
-    border-bottom: 0.1rem solid white;
 }
 
 .menu ul {
@@ -26,4 +29,6 @@ header {
 ul, a {
     text-decoration: none;
     list-style-type: none;
+    color: var(--accent-color);
+    margin: 2rem;
 }
