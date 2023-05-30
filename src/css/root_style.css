@@ -7,8 +7,19 @@ html, body {
     margin: 0;
     padding: 0;
     background-color: var(--background-color1);
+    color: white;
 }
 
 header {
+    font-size: 1.2rem;
+    display: flex;
     background-color: var(--background-color2);
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 0.1rem solid white;
+}
+
+ul, a {
+    text-decoration: none;
+    list-style-type: none;
 }
