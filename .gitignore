@@ -1,0 +1,22 @@
+# IntelliJ IDEA
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# PhpStorm
+/.phpstorm.meta.php
+
+# Cache und Log-Dateien
+/logs/
+/cache/
+
+# Komponist
+/vendor/
+
+# Build-Ordner
+/out/
+
+# Konfigurationsdateien
+/.idea_modules/
+*.xml
