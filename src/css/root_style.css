@@ -47,3 +47,7 @@ ul a:hover {
 main {
     display: flex;
 }
+
+aside {
+    width: 10%;
+}
