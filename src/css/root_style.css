@@ -40,6 +40,10 @@ ul, a {
     margin: 2rem;
 }
 
+ul a:hover {
+    color: var(--hover-color);
+}
+
 main {
     display: flex;
 }
