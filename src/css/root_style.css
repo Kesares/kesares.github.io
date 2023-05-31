@@ -19,7 +19,14 @@ header {
     background-color: var(--background-color2);
     border-bottom: 0.1rem solid var(--accent-color);
     justify-content: space-between;
-    align-items: end;
+}
+
+.light-dark-mod-button {
+    width: 2.5rem;
+    height: 1.5rem;
+    margin: 2rem;
+    border-radius: 1rem;
+    background-color: var(--background-color2);
 }
 
 .menu ul {
