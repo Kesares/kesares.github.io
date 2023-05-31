@@ -49,5 +49,9 @@ main {
 }
 
 aside {
-    width: 10%;
+    width: 5%;
+}
+
+#website-name {
+    margin: 0;
 }
