@@ -6,11 +6,15 @@
     --hover-color: #31d3eb;
 }
 
-html, body {
+body {
     margin: 0;
+    width: 100%;
+    min-height: 100vh;
     font-family: "Courier New", serif;
     background-color: var(--background-color1);
     color: white;
+    display: flex;
+    flex-direction: column;
 }
 
 header {
@@ -51,10 +55,7 @@ ul {
     color: var(--hover-color);
 }
 
-main {
-    display: flex;
-}
-
+/*/////////////////// MAIN /////////////////*/
 .social-media-icons ul {
     margin: 1.5rem 1.5rem;
     padding: 0;
@@ -66,7 +67,7 @@ main {
 }
 
 .content {
-    margin: 7rem 0 23rem 10rem;
+    margin: 7rem 0 0 10rem;
     font-size: 1.5rem;
 }
 
@@ -84,6 +85,9 @@ h1 a {
     font-size: 3rem;
 }
 
-footer p {
+footer {
+    width: 100%;
+    background-color: var(--background-color2);
+    margin-top: auto;
     text-align: center;
 }
