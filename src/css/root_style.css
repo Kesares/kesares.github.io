@@ -8,39 +8,46 @@
 
 html, body {
     margin: 0;
-    padding: 0;
+    font-family: "Courier New", serif;
     background-color: var(--background-color1);
     color: white;
 }
 
 header {
-    font-size: 1.2rem;
-    display: flex;
+    padding: 1.5rem;
+    border-bottom: var(--accent-color) 0.1rem solid;
     background-color: var(--background-color2);
-    border-bottom: 0.1rem solid var(--accent-color);
+    display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 .light-dark-button {
     width: 2.5rem;
     height: 1.5rem;
-    margin: 2rem;
     border-radius: 1rem;
     background-color: var(--background-color2);
 }
 
-.menu ul {
-    display: flex;
-}
-
-ul, a {
-    text-decoration: none;
+ul {
     list-style-type: none;
-    color: var(--accent-color);
-    margin: 2rem;
 }
 
-ul a:hover {
+.menu ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.menu ul a {
+    margin: 2rem;
+    font-size: 1.2rem;
+    color: var(--accent-color);
+    text-decoration: none;
+}
+
+.menu ul a:hover {
     color: var(--hover-color);
 }
 
@@ -48,10 +55,35 @@ main {
     display: flex;
 }
 
-aside {
-    width: 5%;
+.social-media-icons ul {
+    margin: 1.5rem 1.5rem;
+    padding: 0;
+}
+
+.social-media-icons ul li a {
+    font-size: 1.5rem;
+    color: var(--accent-color);
+}
+
+.content {
+    margin: 7rem 0 23rem 10rem;
+    font-size: 1.5rem;
+}
+
+h1 {
+    font-size: 2rem;
+    color: var(--accent-color);
+}
+
+h1 a {
+    text-decoration: none;
+    color: var(--accent-color);
 }
 
 #website-name {
-    margin: 0;
+    font-size: 3rem;
+}
+
+footer p {
+    text-align: center;
 }
