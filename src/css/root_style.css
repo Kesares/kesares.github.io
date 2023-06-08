@@ -33,13 +33,14 @@ header {
     background-color: var(--background-color2);
 }
 
-ul {
+ul, a {
+    padding: 0;
     list-style-type: none;
+    text-decoration: none;
 }
 
 .menu ul {
     margin: 0;
-    padding: 0;
     display: flex;
     justify-content: flex-end;
 }
@@ -48,7 +49,6 @@ ul {
     margin: 2rem;
     font-size: 1.2rem;
     color: var(--accent-color);
-    text-decoration: none;
 }
 
 .menu ul a:hover {
@@ -58,7 +58,6 @@ ul {
 /*/////////////////// MAIN /////////////////*/
 .social-media-icons ul {
     margin: 1.5rem 1.5rem;
-    padding: 0;
 }
 
 .social-media-icons ul li a {
@@ -67,27 +66,19 @@ ul {
 }
 
 .content {
-    margin: 7rem 0 0 10rem;
+    margin: 12rem 0 0 15rem;
     font-size: 1.5rem;
 }
 
-h1 {
-    font-size: 2rem;
-    color: var(--accent-color);
-}
-
 h1 a {
-    text-decoration: none;
-    color: var(--accent-color);
-}
-
-#website-name {
     font-size: 3rem;
+    color: var(--accent-color);
 }
 
 footer {
-    width: 100%;
     background-color: var(--background-color2);
+    color: var(--accent-color);
+    border-top: var(--accent-color) 0.1rem solid;
     margin-top: auto;
     text-align: center;
 }
