@@ -34,4 +34,4 @@ bin/
 package-lock.json
 
 ### TailwindCSS ###
-css/output.css
+#css/output.css
