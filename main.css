@@ -1,0 +1,28 @@
+:root {
+    --background-color-1: #181818;
+    --background-color-2: #262626;
+    --accent-color-1: #579DFF;
+    --accent-color-2: #92beff;
+}
+
+body {
+    margin: 0;
+    height: 100vh;
+    background-color: var(--background-color-1);
+    color: var(--accent-color-1);
+    font-family: monospace;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+a {
+    text-decoration: none;
+    color: var(--accent-color-1);
+    font-size: 1rem;
+}
+
+a:hover {
+    color: var(--accent-color-2);
+}
